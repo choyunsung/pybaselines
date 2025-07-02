@@ -21,7 +21,7 @@ if __name__ == '__main__':
         raise
     import numpy as np
 
-    from pybaselines import Baseline, utils
+    from amcg_pybaselines import Baseline, utils
 
     # assumes file is in pybaselines/tools
     image_directory = Path(__file__).parent.parent.joinpath('docs/images')

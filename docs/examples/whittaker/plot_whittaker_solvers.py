@@ -35,8 +35,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.sparse.linalg import spsolve
 
-from pybaselines import Baseline, utils
-from pybaselines.utils import difference_matrix, relative_difference
+from amcg_pybaselines import Baseline, utils
+from amcg_pybaselines.utils import difference_matrix, relative_difference
 
 
 def sparse_asls(data, lam=1e6, p=1e-2, diff_order=2, max_iter=50, tol=1e-3, weights=None):

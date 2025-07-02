@@ -19,9 +19,9 @@ from itertools import cycle
 import matplotlib.pyplot as plt
 import numpy as np
 
-from pybaselines import Baseline
-from pybaselines.misc import _parabola
-from pybaselines.utils import gaussian
+from amcg_pybaselines import Baseline
+from amcg_pybaselines.misc import _parabola
+from amcg_pybaselines.utils import gaussian
 
 
 def make_data(x, baseline_type=0):

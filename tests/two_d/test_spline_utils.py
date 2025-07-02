@@ -13,9 +13,9 @@ from scipy import interpolate
 from scipy.sparse import issparse, kron
 from scipy.sparse.linalg import spsolve
 
-from pybaselines._compat import identity
-from pybaselines.two_d import _spline_utils
-from pybaselines.utils import difference_matrix
+from amcg_pybaselines._compat import identity
+from amcg_pybaselines.two_d import _spline_utils
+from amcg_pybaselines.utils import difference_matrix
 
 from ..conftest import get_2dspline_inputs
 

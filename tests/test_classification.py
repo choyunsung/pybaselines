@@ -11,8 +11,8 @@ from numpy.testing import assert_allclose, assert_array_equal
 import pytest
 import scipy
 
-from pybaselines import classification
-from pybaselines.utils import ParameterWarning, gaussian, whittaker_smooth
+from amcg_pybaselines import classification
+from amcg_pybaselines.utils import ParameterWarning, gaussian, whittaker_smooth
 
 from .conftest import BaseTester, InputWeightsMixin, ensure_deprecation
 from .data import PYWAVELETS_HAAR

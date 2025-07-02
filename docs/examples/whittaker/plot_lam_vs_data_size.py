@@ -25,7 +25,7 @@ import warnings
 import matplotlib.pyplot as plt
 import numpy as np
 
-from pybaselines import Baseline, utils
+from amcg_pybaselines import Baseline, utils
 
 
 def _minimize(data, known_baseline, func, lams, **kwargs):

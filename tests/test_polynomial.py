@@ -12,8 +12,8 @@ import numpy as np
 from numpy.testing import assert_allclose, assert_array_equal
 import pytest
 
-from pybaselines import polynomial
-from pybaselines.utils import ParameterWarning
+from amcg_pybaselines import polynomial
+from amcg_pybaselines.utils import ParameterWarning
 
 from .conftest import BasePolyTester, InputWeightsMixin
 from .data import (

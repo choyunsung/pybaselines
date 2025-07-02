@@ -19,8 +19,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.ndimage import uniform_filter1d
 
-from pybaselines import Baseline
-from pybaselines.utils import gaussian
+from amcg_pybaselines import Baseline
+from amcg_pybaselines.utils import gaussian
 
 
 x = np.linspace(0, 1000, 1000)

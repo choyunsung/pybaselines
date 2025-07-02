@@ -11,10 +11,10 @@ from numpy.testing import assert_allclose, assert_array_equal
 import pytest
 from scipy.sparse import kron
 
-from pybaselines._compat import identity
-from pybaselines.two_d import _algorithm_setup, optimizers, polynomial, whittaker
-from pybaselines.utils import ParameterWarning, SortingWarning, difference_matrix, optimize_window
-from pybaselines._validation import _check_scalar
+from amcg_pybaselines._compat import identity
+from amcg_pybaselines.two_d import _algorithm_setup, optimizers, polynomial, whittaker
+from amcg_pybaselines.utils import ParameterWarning, SortingWarning, difference_matrix, optimize_window
+from amcg_pybaselines._validation import _check_scalar
 
 from ..conftest import ensure_deprecation, get_2dspline_inputs, get_data2d
 

@@ -10,7 +10,7 @@ import numpy as np
 from numpy.testing import assert_allclose
 import pytest
 
-from pybaselines.two_d import whittaker
+from amcg_pybaselines.two_d import whittaker
 
 from ..conftest import BaseTester2D, InputWeightsMixin
 

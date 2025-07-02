@@ -12,7 +12,7 @@ import numpy as np
 from numpy.testing import assert_allclose
 import pytest
 
-from pybaselines.two_d import polynomial
+from amcg_pybaselines.two_d import polynomial
 
 from ..conftest import BasePolyTester2D, InputWeightsMixin
 from ..data import STATSMODELS_QUANTILES_2D

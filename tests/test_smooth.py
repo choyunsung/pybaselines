@@ -9,8 +9,8 @@ Created on March 20, 2021
 from numpy.testing import assert_allclose
 import pytest
 
-from pybaselines import smooth
-from pybaselines.utils import ParameterWarning
+from amcg_pybaselines import smooth
+from amcg_pybaselines.utils import ParameterWarning
 
 from .conftest import BaseTester, ensure_deprecation, get_data
 

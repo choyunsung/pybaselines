@@ -24,8 +24,8 @@ from time import perf_counter
 import matplotlib.pyplot as plt
 import numpy as np
 
-from pybaselines import Baseline
-from pybaselines.utils import gaussian
+from amcg_pybaselines import Baseline
+from amcg_pybaselines.utils import gaussian
 
 
 num_points = 1000  # number of data points in one set of data

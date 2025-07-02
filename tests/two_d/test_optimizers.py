@@ -10,8 +10,8 @@ import numpy as np
 from numpy.testing import assert_allclose, assert_array_equal
 import pytest
 
-from pybaselines import utils
-from pybaselines.two_d import optimizers, polynomial
+from amcg_pybaselines import utils
+from amcg_pybaselines.two_d import optimizers, polynomial
 
 from ..conftest import BaseTester2D, InputWeightsMixin
 

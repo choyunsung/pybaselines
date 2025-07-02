@@ -10,8 +10,8 @@ import numpy as np
 from numpy.testing import assert_allclose
 import pytest
 
-from pybaselines import _banded_utils, whittaker
-from pybaselines._compat import diags
+from amcg_pybaselines import _banded_utils, whittaker
+from amcg_pybaselines._compat import diags
 
 from .conftest import BaseTester, InputWeightsMixin, ensure_deprecation, has_pentapy
 

@@ -12,7 +12,7 @@ import numpy as np
 from numpy.testing import assert_allclose
 import pytest
 
-from pybaselines import _banded_utils, _spline_utils, morphological, spline, whittaker
+from amcg_pybaselines import _banded_utils, _spline_utils, morphological, spline, whittaker
 
 from .conftest import BaseTester, InputWeightsMixin, ensure_deprecation
 

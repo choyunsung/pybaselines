@@ -13,10 +13,10 @@ from scipy.linalg import eig_banded, solve
 from scipy.sparse import issparse, kron
 from scipy.sparse.linalg import spsolve
 
-from pybaselines._banded_utils import diff_penalty_diagonals
-from pybaselines._compat import dia_object, identity
-from pybaselines.two_d import _spline_utils, _whittaker_utils
-from pybaselines.utils import difference_matrix
+from amcg_pybaselines._banded_utils import diff_penalty_diagonals
+from amcg_pybaselines._compat import dia_object, identity
+from amcg_pybaselines.two_d import _spline_utils, _whittaker_utils
+from amcg_pybaselines.utils import difference_matrix
 
 from ..conftest import get_2dspline_inputs
 

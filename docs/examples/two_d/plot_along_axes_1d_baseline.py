@@ -14,8 +14,8 @@ approach is to use a for-loop with the corresponding :class:`.Baseline` method.
 import matplotlib.pyplot as plt
 import numpy as np
 
-from pybaselines import Baseline2D
-from pybaselines.utils import gaussian
+from amcg_pybaselines import Baseline2D
+from amcg_pybaselines.utils import gaussian
 
 
 def plot_contour_with_projection(X, Z, data):

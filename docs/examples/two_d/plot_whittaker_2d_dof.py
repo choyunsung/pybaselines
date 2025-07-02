@@ -23,8 +23,8 @@ from time import perf_counter
 import matplotlib.pyplot as plt
 import numpy as np
 
-from pybaselines import Baseline2D
-from pybaselines.utils import gaussian2d
+from amcg_pybaselines import Baseline2D
+from amcg_pybaselines.utils import gaussian2d
 
 
 def mean_squared_error(fit_baseline, real_baseline):

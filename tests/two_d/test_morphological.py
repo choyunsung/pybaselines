@@ -10,7 +10,7 @@ import numpy as np
 from numpy.testing import assert_allclose
 import pytest
 
-from pybaselines.two_d import morphological
+from amcg_pybaselines.two_d import morphological
 
 from ..conftest import BaseTester2D, ensure_deprecation
 

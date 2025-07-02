@@ -6,7 +6,7 @@ from numpy.testing import assert_allclose
 import pytest
 from scipy.special import erf
 
-from pybaselines import _weighting, utils, Baseline2D
+from amcg_pybaselines import _weighting, utils, Baseline2D
 
 from .conftest import get_data, get_data2d
 

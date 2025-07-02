@@ -13,8 +13,8 @@ from numpy.testing import assert_allclose, assert_array_equal
 import pytest
 from scipy.sparse import vstack
 
-from pybaselines import _banded_utils, misc
-from pybaselines._compat import dia_object, diags
+from amcg_pybaselines import _banded_utils, misc
+from amcg_pybaselines._compat import dia_object, diags
 
 from .conftest import BaseTester, get_data
 

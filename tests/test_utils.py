@@ -12,8 +12,8 @@ import pytest
 from scipy.interpolate import BSpline
 from scipy.sparse.linalg import spsolve
 
-from pybaselines import _banded_utils, _spline_utils, utils
-from pybaselines._compat import dia_object, diags, identity
+from amcg_pybaselines import _banded_utils, _spline_utils, utils
+from amcg_pybaselines._compat import dia_object, diags, identity
 
 from .conftest import gaussian
 

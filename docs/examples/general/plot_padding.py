@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.ndimage import uniform_filter1d
 
-from pybaselines.utils import pad_edges
+from amcg_pybaselines.utils import pad_edges
 
 
 half_window = 80  # for 161 point moving average window

@@ -17,8 +17,8 @@ belonging to the baseline and False otherwise.
 import matplotlib.pyplot as plt
 import numpy as np
 
-from pybaselines import Baseline
-from pybaselines.utils import gaussian
+from amcg_pybaselines import Baseline
+from amcg_pybaselines.utils import gaussian
 
 
 half_window = 50

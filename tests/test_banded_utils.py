@@ -11,8 +11,8 @@ from numpy.testing import assert_allclose, assert_array_equal
 import pytest
 from scipy.sparse.linalg import spsolve
 
-from pybaselines import _banded_utils, _spline_utils
-from pybaselines._compat import dia_object, diags, identity
+from amcg_pybaselines import _banded_utils, _spline_utils
+from amcg_pybaselines._compat import dia_object, diags, identity
 
 from .conftest import has_pentapy
 

@@ -12,7 +12,7 @@ import numpy as np
 from numpy.testing import assert_allclose, assert_array_equal
 import pytest
 
-from pybaselines.two_d import api, morphological, optimizers, polynomial, smooth, spline, whittaker
+from amcg_pybaselines.two_d import api, morphological, optimizers, polynomial, smooth, spline, whittaker
 
 from ..conftest import get_data2d
 

@@ -9,7 +9,7 @@ Created on January 14, 2024
 from numpy.testing import assert_allclose
 import pytest
 
-from pybaselines.two_d import smooth
+from amcg_pybaselines.two_d import smooth
 
 from ..conftest import ensure_deprecation, BaseTester2D
 

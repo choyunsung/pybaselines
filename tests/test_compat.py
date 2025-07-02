@@ -14,7 +14,7 @@ import pytest
 import scipy
 from scipy import integrate, sparse
 
-from pybaselines import _compat
+from amcg_pybaselines import _compat
 
 from .conftest import _HAS_PENTAPY
 

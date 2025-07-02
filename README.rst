@@ -1,41 +1,41 @@
-===========
-pybaselines
-===========
+================
+amcg-amcg-pybaselines
+================
 
-.. image:: https://github.com/derb12/pybaselines/raw/main/docs/images/logo.png
+.. image:: https://github.com/derb12/amcg-pybaselines/raw/main/docs/images/logo.png
     :alt: Logo
     :align: center
 
-.. image:: https://img.shields.io/pypi/v/pybaselines.svg
-    :target: https://pypi.python.org/pypi/pybaselines
+.. image:: https://img.shields.io/pypi/v/amcg-pybaselines.svg
+    :target: https://pypi.python.org/pypi/amcg-pybaselines
     :alt: Current Pypi Version
 
-.. image:: https://img.shields.io/conda/vn/conda-forge/pybaselines.svg
-    :target: https://anaconda.org/conda-forge/pybaselines
+.. image:: https://img.shields.io/conda/vn/conda-forge/amcg-pybaselines.svg
+    :target: https://anaconda.org/conda-forge/amcg-pybaselines
     :alt: Current conda Version
 
-.. image:: https://github.com/derb12/pybaselines/actions/workflows/python-test.yml/badge.svg
-    :target: https://github.com/derb12/pybaselines/actions
+.. image:: https://github.com/derb12/amcg-pybaselines/actions/workflows/python-test.yml/badge.svg
+    :target: https://github.com/derb12/amcg-pybaselines/actions
     :alt: GitHub Actions test status
 
-.. image:: https://readthedocs.org/projects/pybaselines/badge/?version=latest
-    :target: https://pybaselines.readthedocs.io
+.. image:: https://readthedocs.org/projects/amcg-pybaselines/badge/?version=latest
+    :target: https://amcg-pybaselines.readthedocs.io
     :alt: Documentation Status
 
-.. image:: https://img.shields.io/pypi/pyversions/pybaselines.svg
-    :target: https://pypi.python.org/pypi/pybaselines
+.. image:: https://img.shields.io/pypi/pyversions/amcg-pybaselines.svg
+    :target: https://pypi.python.org/pypi/amcg-pybaselines
     :alt: Supported Python versions
 
 .. image:: https://zenodo.org/badge/350510397.svg
     :target: https://zenodo.org/badge/latestdoi/350510397
     :alt: Zenodo DOI
 
-pybaselines is a library of algorithms for the baseline correction of experimental data.
+amcg-pybaselines is a library of algorithms for the baseline correction of experimental data.
 
 * For Python 3.9 or later
 * Open Source: BSD 3-Clause License
-* Source Code: https://github.com/derb12/pybaselines
-* Documentation: https://pybaselines.readthedocs.io.
+* Source Code: https://github.com/derb12/amcg-pybaselines
+* Documentation: https://amcg-pybaselines.readthedocs.io.
 
 
 .. contents:: **Contents**
@@ -45,18 +45,18 @@ pybaselines is a library of algorithms for the baseline correction of experiment
 Introduction
 ------------
 
-pybaselines is a Python library that provides many different algorithms for
+amcg-pybaselines is a Python library that provides many different algorithms for
 performing baseline correction on data from experimental techniques such as
 Raman, FTIR, NMR, XRD, XRF, PIXE, MALDI-TOF, LIBS, etc. The aim of the project is
 to provide a semi-unified API to allow quickly testing and comparing multiple baseline
 correction algorithms to find the best one for a set of data.
 
-pybaselines has 50+ baseline correction algorithms. These include popular algorithms,
+amcg-pybaselines has 50+ baseline correction algorithms. These include popular algorithms,
 such as AsLS, airPLS, ModPoly, and SNIP, as well as many lesser known algorithms. Most
 algorithms are adapted directly from literature, although there are a few that are unique
-to pybaselines, such as penalized spline versions of Whittaker-smoothing-based algorithms.
+to amcg-pybaselines, such as penalized spline versions of Whittaker-smoothing-based algorithms.
 The full list of implemented algorithms can be found in the
-`documentation <https://pybaselines.readthedocs.io/en/latest/api/Baseline.html>`_.
+`documentation <https://amcg-pybaselines.readthedocs.io/en/latest/api/Baseline.html>`_.
 
 
 Installation
@@ -65,39 +65,39 @@ Installation
 Stable Release
 ~~~~~~~~~~~~~~
 
-pybaselines can be installed from `pypi <https://pypi.org/project/pybaselines>`_
+amcg-pybaselines can be installed from `pypi <https://pypi.org/project/amcg-pybaselines>`_
 using `pip <https://pip.pypa.io>`_, by running the following command in the terminal:
 
 .. code-block:: console
 
-    pip install pybaselines
+    pip install amcg-amcg-pybaselines
 
-pybaselines can alternatively be installed from the
-`conda-forge <https://anaconda.org/conda-forge/pybaselines>`_ channel using conda by running:
+amcg-pybaselines can alternatively be installed from the
+`conda-forge <https://anaconda.org/conda-forge/amcg-pybaselines>`_ channel using conda by running:
 
 .. code-block:: console
 
-    conda install -c conda-forge pybaselines
+    conda install -c conda-forge amcg-pybaselines
 
 
 Development Version
 ~~~~~~~~~~~~~~~~~~~
 
-The sources for pybaselines can be downloaded from the `GitHub repo`_.
-To install the current version of pybaselines from GitHub, run:
+The sources for amcg-pybaselines can be downloaded from the `GitHub repo`_.
+To install the current version of amcg-pybaselines from GitHub, run:
 
 .. code-block:: console
 
-    pip install git+https://github.com/derb12/pybaselines.git
+    pip install git+https://github.com/derb12/amcg-pybaselines.git
 
 
-.. _GitHub repo: https://github.com/derb12/pybaselines
+.. _GitHub repo: https://github.com/derb12/amcg-pybaselines
 
 
 Dependencies
 ~~~~~~~~~~~~
 
-pybaselines requires `Python <https://python.org>`_ version 3.9 or later
+amcg-pybaselines requires `Python <https://python.org>`_ version 3.9 or later
 and the following libraries:
 
 * `NumPy <https://numpy.org>`_
@@ -105,34 +105,34 @@ and the following libraries:
 
 
 All of the required libraries should be automatically installed when
-installing pybaselines using any of the installation methods above.
+installing amcg-pybaselines using any of the installation methods above.
 
-The `optional dependencies <https://pybaselines.readthedocs.io/en/latest/installation.html#optional-dependencies>`_
-for pybaselines are listed in the documentation . To also install the optional
-dependencies when installing pybaselines with pip, run:
+The `optional dependencies <https://amcg-pybaselines.readthedocs.io/en/latest/installation.html#optional-dependencies>`_
+for amcg-pybaselines are listed in the documentation . To also install the optional
+dependencies when installing amcg-pybaselines with pip, run:
 
 .. code-block:: console
 
-    pip install pybaselines[full]
+    pip install amcg-amcg-pybaselines[full]
 
 If installing with conda, the optional dependencies have to be specified manually.
 
 Quick Start
 -----------
 
-To use the various functions in pybaselines, simply input the measured
-data and any required parameters. All baseline correction functions in pybaselines
+To use the various functions in amcg-pybaselines, simply input the measured
+data and any required parameters. All baseline correction functions in amcg-pybaselines
 will output two items: a numpy array of the calculated baseline and a
 dictionary of potentially useful parameters. The main interface for all baseline correction
-algorithms in pybaselines is through the ``Baseline`` object for one dimensional
+algorithms in amcg-pybaselines is through the ``Baseline`` object for one dimensional
 data and ``Baseline2D`` for two dimensional data.
 
 For more details on each baseline algorithm, refer to the `algorithms section`_ of
-pybaselines's documentation. For examples of their usage, refer to the `examples section`_.
+amcg-pybaselines's documentation. For examples of their usage, refer to the `examples section`_.
 
-.. _algorithms section: https://pybaselines.readthedocs.io/en/latest/algorithms/index.html
+.. _algorithms section: https://amcg-pybaselines.readthedocs.io/en/latest/algorithms/index.html
 
-.. _examples section: https://pybaselines.readthedocs.io/en/latest/examples/index.html
+.. _examples section: https://amcg-pybaselines.readthedocs.io/en/latest/examples/index.html
 
 A simple example is shown below.
 
@@ -140,7 +140,7 @@ A simple example is shown below.
 
     import matplotlib.pyplot as plt
     import numpy as np
-    from pybaselines import Baseline, utils
+    from amcg_pybaselines import Baseline, utils
 
     x = np.linspace(1, 1000, 1000)
     # a measured signal containing several Gaussian peaks
@@ -182,7 +182,7 @@ A simple example is shown below.
 
 The above code will produce the image shown below.
 
-.. image:: https://github.com/derb12/pybaselines/raw/main/docs/images/quickstart.jpg
+.. image:: https://github.com/derb12/amcg-pybaselines/raw/main/docs/images/quickstart.jpg
    :align: center
    :alt: various baselines
 
@@ -194,32 +194,32 @@ Contributions are welcomed and greatly appreciated. For information on
 submitting bug reports, pull requests, or general feedback, please refer
 to the `contributing guide`_.
 
-.. _contributing guide: https://github.com/derb12/pybaselines/tree/main/docs/contributing.rst
+.. _contributing guide: https://github.com/derb12/amcg-pybaselines/tree/main/docs/contributing.rst
 
 
 Changelog
 ---------
 
-Refer to the changelog_ for information on pybaselines's changes.
+Refer to the changelog_ for information on amcg-pybaselines's changes.
 
-.. _changelog: https://github.com/derb12/pybaselines/tree/main/CHANGELOG.rst
+.. _changelog: https://github.com/derb12/amcg-pybaselines/tree/main/CHANGELOG.rst
 
 
 License
 -------
 
-pybaselines is open source and freely available under the BSD-3-Clause license.
+amcg-pybaselines is open source and freely available under the BSD-3-Clause license.
 For more information, refer to the license_.
 
-.. _license: https://github.com/derb12/pybaselines/tree/main/LICENSE.txt
+.. _license: https://github.com/derb12/amcg-pybaselines/tree/main/LICENSE.txt
 
 
 Citing
 ------
 
-If you use pybaselines for published research, please consider citing
+If you use amcg-pybaselines for published research, please consider citing
 by following the `guidelines in the documentation
-<https://pybaselines.readthedocs.io/en/latest/citing.html>`_.
+<https://amcg-pybaselines.readthedocs.io/en/latest/citing.html>`_.
 
 
 Author

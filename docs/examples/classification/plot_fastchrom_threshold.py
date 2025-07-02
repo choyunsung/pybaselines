@@ -25,9 +25,9 @@ of the rolling standard deviation distribution.
 import matplotlib.pyplot as plt
 import numpy as np
 
-from pybaselines import Baseline
-from pybaselines.classification import _padded_rolling_std
-from pybaselines.utils import gaussian
+from amcg_pybaselines import Baseline
+from amcg_pybaselines.classification import _padded_rolling_std
+from amcg_pybaselines.utils import gaussian
 
 
 try:
